@@ -1,0 +1,19 @@
+#reseau{
+	float: left;
+	margin-left: 15px;
+}
+
+main{
+	float: left;
+	background-color: rgb(231,245,243);
+	padding: 10px;
+	width: 42%;
+	margin-left: 15px;
+	text-align: center;
+}
+
+#contact{
+	float: left;
+	margin-left: 15px;
+
+}

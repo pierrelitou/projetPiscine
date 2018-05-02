@@ -15,7 +15,7 @@
 </head>
 <body>
 	<div id="cadreContact">
-		<h3>Con</h3>
+		<h3>Contact</h3>
 		<!-- ajouter le php pour afficher !-->
 	</div>
 </body>
