@@ -1,0 +1,81 @@
+#cadreinfo
+{
+	float:left;
+	background-color: rgb(231,245,243);
+	width:300px;
+	height:400px;
+}
+
+#photo
+{
+	margin-left:33%;
+	width:100px;
+	height:100px;
+}
+
+#cadresecondaireinfo
+{
+	background-color: rgb(131,245,243);
+	width:200px;
+	height:250px;
+	margin-left:15%;
+}
+
+#cadrepage
+{
+	
+	background-color: rgb(231,145,243);
+	width:600px;
+	height:800px;
+	margin-left:33%;
+}
+
+#cadreactivite
+{
+	float:left;
+	background-color: rgb(231,145,043);
+	width:580px;
+	height:150px;
+	margin-left:2%;
+	margin-top:1%;
+}
+
+#cadrecompetence
+{
+	float:left;
+	background-color: rgb(231,145,143);
+	width:580px;
+	height:150px;
+	margin-left:2%;
+	margin-top:1%;
+}
+
+#cadreformation
+{
+	float:left;
+	background-color: rgb(131,145,143);
+	width:580px;
+	height:150px;
+	margin-left:2%;
+	margin-top:1%;
+}
+
+#cadreexperience
+{
+	float:left;
+	background-color: rgb(031,145,143);
+	width:580px;
+	height:150px;
+	margin-left:2%;
+	margin-top:1%;
+}
+
+#cadreinteret
+{
+	float:left;
+	background-color: rgb(031,045,143);
+	width:580px;
+	height:150px;
+	margin-left:2%;
+	margin-top:1%;
+}

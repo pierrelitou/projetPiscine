@@ -1,0 +1,19 @@
+h2
+{
+	Color: RGB(53,143,127);
+	font-style: normal;
+	text-align: center;
+}
+
+#zoneRecherche
+{
+	text-align: center;
+}
+
+#cadreCentre
+{
+	margin-left: 30%;
+	background-color: rgb(231,245,243);
+	width:500px;
+	height:300px;
+}
