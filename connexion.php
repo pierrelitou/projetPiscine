@@ -9,7 +9,7 @@
 	
 	<header>
 		<img src="logoece.jpg" id="logo"><!--mettre le logo choisi!-->
-		<div id="inscription">
+		<div id="connecté">
 			<form method="post" action="">
 				mail : 
 				<input type="text" name="idutilisateur" value="adresse mail">
