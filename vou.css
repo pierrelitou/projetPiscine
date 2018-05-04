@@ -24,9 +24,9 @@
 #cadrepage
 {
 	
-	background-color: rgb(231,145,243);
+	background-color: rgb(231,245,243);
 	width:600px;
-	min-height:2000px;
+	height:950px;
 	margin-left:33%;
 }
 
@@ -80,7 +80,7 @@
 	margin-top:1%;
 }
 
-#bou
+.bou
 {
 	background-color: RGB(53,143,127);
 	height:30px;

@@ -1,0 +1,14 @@
+
+main{
+	margin-top: 17px;
+	background-color: rgb(231,245,243);
+	padding : 10px;
+	margin-left: 33%;
+	margin-right: 66%;
+	float : left;
+	text-align: left;
+}
+footer{
+clear: both;
+
+}

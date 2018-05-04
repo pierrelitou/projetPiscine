@@ -20,20 +20,25 @@
 	min-height:250px;
 	margin-left:15%;
 }
-
+#contact
+{
+	padding-left:78%;
+	margin-top:-62%;
+}
 #cadrepage
 {
 	
-	background-color: rgb(231,145,243);
+	background-color: rgb(231,245,243);
 	width:600px;
-	min-height:2000px;
-	margin-left:33%;
-}
+	height:950px;
+	margin-left:30%;
 
+}
+	
 #cadreactivite
 {
 	float:left;
-	background-color: rgb(231,145,043);
+	background-color: rgb(131,245,243);
 	width:580px;
 	min-height:150px;
 	margin-left:2%;
@@ -43,7 +48,7 @@
 #cadrecompetence
 {
 	float:left;
-	background-color: rgb(231,145,143);
+	background-color: rgb(131,245,243);
 	width:580px;
 	min-height:150px;
 	margin-left:2%;
@@ -53,7 +58,7 @@
 #cadreformation
 {
 	float:left;
-	background-color: rgb(131,145,143);
+	background-color: rgb(131,245,243);
 	width:580px;
 	min-height:150px;
 	margin-left:2%;
@@ -63,7 +68,7 @@
 #cadreexperience
 {
 	float:left;
-	background-color: rgb(031,145,143);
+	background-color: rgb(131,245,243);
 	width:580px;
 	min-height:150px;
 	margin-left:2%;
@@ -73,14 +78,14 @@
 #cadreinteret
 {
 	float:left;
-	background-color: rgb(031,045,143);
+	background-color: rgb(131,245,243);
 	width:580px;
 	min-height:150px;
 	margin-left:2%;
 	margin-top:1%;
 }
 
-#bou
+.bou
 {
 	background-color: RGB(53,143,127);
 	height:30px;

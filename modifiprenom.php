@@ -12,9 +12,9 @@
 	<br>
 	<div id="formulaire">
 		<form method="post" action="traitementmodifprenom.php">
-			Saisir votre ancien prénom : <input type="text" name="ancienprenom"><br><br>
+			Saisir votre ancien prénom &nbsp;&nbsp;:&nbsp; <input type="text" name="ancienprenom"><br><br>
 			Saisir votre nouveau prénom : <input type="text" name="nouveauprenom"><br><br>
-			<input type="submit" name="valider" class="bouton" >
+			<input type="submit" name="valider" class="bout2" >
 		</form>
 	</div>
 <body>

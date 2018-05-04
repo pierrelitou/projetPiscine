@@ -1,4 +1,4 @@
-<?php //tout fonctionne
+<?php 
 session_start();
 if(!include("connexionbdd.php"))
 {
@@ -6,8 +6,8 @@ if(!include("connexionbdd.php"))
 }
 else
 {
-	$reponse1='null';
-	$reponse2='null';
+	$reponse1="null";
+	$reponse2="null";
 	
 	$idutilisateur= $_POST['idutilisateur'];
 	$password = $_POST['password'];
@@ -24,7 +24,7 @@ else
 		
 	if(($reponse1 == $idutilisateur)&&($reponse2 == $password))
 	{
-		if($_POST['rester']=="oui")
+		if(isset ($_POST['rester']))
 		{
 			if(isset($idutilisateur))
 			{
@@ -56,8 +56,10 @@ else
 	}
 	else
 	{
-		echo "Vous n'avez pas encore de compte";
-		header('Location: connexion.php');
+		echo "L'adresse mail saisie et le mot de passe ne correspondent à aucun profil chez nous !<br>";
+		echo " cliquez ";
+		echo "<a  href='connexion.php' > ici </a> pour revenir en arrière";
 	}
+	
 }
 ?>

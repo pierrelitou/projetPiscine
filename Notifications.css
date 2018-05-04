@@ -1,0 +1,33 @@
+body{
+	min-width: 1300px;
+}
+
+#reseau{
+	float: left;
+	margin-left: 15px;
+}
+
+main{
+	margin-top: 17px;
+	float: left;
+	background-color: rgb(231,245,243);
+	padding: 10px;
+	width: 33%;
+	margin-left: 15px;
+	text-align: center;
+}
+
+#recherche{
+	background-color: RGB(53,143,127);
+	color: white;
+}
+
+#contact{
+	float: left;
+	margin-left: 15px;
+}
+
+footer{
+clear: both;
+
+}

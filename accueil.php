@@ -59,10 +59,19 @@ include("connexionbdd.php");
 							<option value="<?php  echo($reponse['idpost']);  ?>"></option>
 						</select>
 						<?php
+						//ajouter un compteur de like
 						?>
 						<input type="submit" name="aimer" value="j'aime">
 					</form>
 					<?php
+					echo("commentaire<br>");
+					$requete3="select u.nom, u.prenom, c.contenu,c.datecommentaire from commentaire c, utilisateur u where c.idpost = '".$reponse['idpost']."' and c.idutilisateur = u.idutilisateur;";
+
+					$resultat3=mysqli_query($bdd,$requete3);
+					while ($reponse3=$resultat3->fetch_array()) {
+						echo ($reponse3['nom']." ".$reponse3['prenom']."<br>".$reponse3['datecommentaire']."<br>".$reponse3['contenu']."<br>");
+						
+					}
 				}
 				?>
 				</div>

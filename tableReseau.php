@@ -43,9 +43,9 @@
 
 						echo $value['nom']." ".$value['prenom'];
 						?>
-						<form method="post" action="">
+						<form method="post" action="ajouterami.php">
 							<select name="choix" id="invisible">
-								<option value="<?php echo "".$value['idutilisateur'].""; ?>"></option>
+								<option value="<?php echo "".$value['mail'].""; ?>"></option>
 							</select>
 							<input type="submit" name="ajouter" value="ajouter">
 						</form>

@@ -13,8 +13,8 @@
 	<div id="formulaire">
 		<form method="post" action="traitementmodifdatenaissance.php">
 			Saisir votre ancienne date de naissance : <input type="date" name="anciendatenaissance"><br><br>
-			Saisir votre nouvel date de naissance : <input type="date" name="nouveldatenaissance"><br><br>
-			<input type="submit" name="valider" class="bouton" >
+			Saisir votre nouvel date de naissance &nbsp;&nbsp;:&nbsp; <input type="date" name="nouveldatenaissance"><br><br>
+			<input type="submit" name="valider" class="bout2" >
 		</form>
 	</div>
 <body>
