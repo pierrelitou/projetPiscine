@@ -26,4 +26,5 @@
 	</aside>
 		
 	<footer>
+		<?php include("footer.php");?>
 	</footer>

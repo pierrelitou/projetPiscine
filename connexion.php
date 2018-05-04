@@ -10,15 +10,17 @@
 	<header>
 		<img src="logoece.jpg" id="logo"><!--mettre le logo choisi!-->
 		<div id="connecte">
-			<form method="post" action="">
+			<form method="post" action="postconnexion.php">
 				mail : 
-				<input type="text" name="idutilisateur" value="adresse mail">
+				<input type="text" name="idutilisateur" placeholder="adresse mail"  >
 				password :
 				<input type="password" name="password"><span>
 				rester connecté :
 				<input type="checkbox" name="rester">
 				<input type="submit" name="connexion" class="bouton" id="connexion">
+				<a href="traitementmdpoublie.php" style="color:#FFFFFF"> Mot de passe oublié ?</a>
 			</form>
+			 
 		</div>
 	</header>
 	
@@ -32,7 +34,7 @@
 	
 	<aside>
 		<h3>inscription</h3>
-		<form method="post" action="postinscription.php">
+		<form method="post" action="">
 			Adresse mail : <input type="text" name="adresse"><br><br>
 			Nom : <input type="text" name="nom"><br><br>
 			Prenom : <input type="text" name="Prenom"><br><br>
@@ -48,9 +50,7 @@
 	</aside>
 	
 	<footer>
-		<?php
-		include("footer.php");
-		?>
+		<p>Litou Pierre, Fornaciari Benjamin, Claro Carvalho Daniel - Projet Piscine 2018</p>
 	</footer>
 
 </body>
