@@ -5,7 +5,7 @@
 	<style type="text/css">
 		#cadreContact
 		{
-			height: 300px;
+			min-height: 500px;
 			width: 350px;
 			border:hidden;
 			background-color: rgb(231,245,243);
@@ -29,18 +29,30 @@
 			$bdd = mysqli_connect('localhost', 'root', '', 'piscine');
 			$requete="SELECT * FROM `utilisateur` WHERE `idutilisateur` != '".$_SESSION['mail']."';";
 			$resultat=mysqli_query($bdd,$requete);
+			$tableau=array();
 			while($reponse=$resultat->fetch_array()){
-				echo" ".$reponse['nom']." ".$reponse['prenom']."<br>";
 				$requete2="SELECT COUNT(`idutilisateur2`) FROM `ami` WHERE `idutilisateur1` = '".$_SESSION['mail']."' AND `idutilisateur2` = '".$reponse['idutilisateur']."'";
+				$reponse2=mysqli_query($bdd,$requete2);
+				while ($resultat2=$reponse2->fetch_array()) {
+						array_push($tableau, array('ami' => $resultat2['0'] ,'nom'=>$reponse['nom'],'prenom'=>$reponse['prenom'],'mail'=> $reponse['idutilisateur']));
+				}
+				
+			}
+			foreach ($tableau as $key => $value) {
+				if($value['ami']==0){
+
+						echo $value['nom']." ".$value['prenom'];
 						?>
-						<form>
+						<form method="post" action="">
 							<select name="choix" id="invisible">
-								<option value="<?php echo "".$contact['idutilisateur'].""; ?>"></option>
+								<option value="<?php echo "".$value['idutilisateur'].""; ?>"></option>
 							</select>
 							<input type="submit" name="ajouter" value="ajouter">
 						</form>
-					<?php
+						<?php
+				}
 			}
+	
 		?>
 		
 	</div>

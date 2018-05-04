@@ -1,4 +1,4 @@
-<?php
+<?php//tout fonctionne
 session_start();
 if(!(include("connexionbdd.php"))){
 	echo "erreur";
@@ -25,8 +25,9 @@ else{
 	$_SESSION['sexe']=$sexe;
 	$_SESSION['datecreation']=$datecreation;
 
+	
+	header('Location: accueil.php');
 }
-header('Location: accueil.php');
 ?>
 
 

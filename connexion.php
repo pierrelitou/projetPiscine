@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--tout fonctionne-->
 <html>
 <head>
 	<title>Projet Piscine</title>
@@ -16,7 +16,7 @@
 				password :
 				<input type="password" name="password"><span>
 				rester connecté :
-				<input type="checkbox" name="rester">
+				<input type="checkbox" name="rester" value="oui">
 				<input type="submit" name="connexion" class="bouton" id="connexion">
 				<a href="traitementmdpoublie.php" style="color:#FFFFFF"> Mot de passe oublié ?</a>
 			</form>
@@ -34,7 +34,7 @@
 	
 	<aside>
 		<h3>inscription</h3>
-		<form method="post" action="">
+		<form method="post" action="postinscription.php">
 			Adresse mail : <input type="text" name="adresse"><br><br>
 			Nom : <input type="text" name="nom"><br><br>
 			Prenom : <input type="text" name="Prenom"><br><br>

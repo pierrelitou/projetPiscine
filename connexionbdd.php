@@ -1,3 +1,3 @@
 <?php
-mysqli_connect('localhost', 'root', '','piscine');
+$bdd=mysqli_connect('localhost', 'root', '','piscine');
 ?>

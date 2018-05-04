@@ -1,4 +1,4 @@
-<?php 
+<?php //tout fonctionne
 session_start();
 if(!include("connexionbdd.php"))
 {
@@ -6,8 +6,8 @@ if(!include("connexionbdd.php"))
 }
 else
 {
-	$reponse1='';
-	$reponse2='';
+	$reponse1='null';
+	$reponse2='null';
 	
 	$idutilisateur= $_POST['idutilisateur'];
 	$password = $_POST['password'];
@@ -24,7 +24,7 @@ else
 		
 	if(($reponse1 == $idutilisateur)&&($reponse2 == $password))
 	{
-		if(isset ($_POST['rester']))
+		if($_POST['rester']=="oui")
 		{
 			if(isset($idutilisateur))
 			{
