@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['mail']="pierre.litou@edu.ece.fr";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,12 +12,12 @@
 <body>
 	
 	<header>
-		<?php include("bandeau.php"); ?>
+		<?php include 'bandeau.php'; ?>
 	</header>
 	
 	<aside id="reseau">
 		<?php
-		 include("tableReseau.php"); 
+		 include 'tableReseau.php'; 
 		 ?>
 	</aside>
 	
@@ -36,13 +40,13 @@
 
 	<aside id="contact">
 		<?php
-		include("tableContact.php"); 
+		include 'tableContact.php'; 
 		?>
 	</aside>
 
 	<footer>
 		<?php 
-		include("footer.php"); 
+		include 'footer.php'; 
 		?>
 	</footer>
 

@@ -9,7 +9,7 @@
 	
 	<header>
 		<img src="logoece.jpg" id="logo"><!--mettre le logo choisi!-->
-		<div id="connecté">
+		<div id="connecte">
 			<form method="post" action="">
 				mail : 
 				<input type="text" name="idutilisateur" value="adresse mail">
@@ -32,7 +32,7 @@
 	
 	<aside>
 		<h3>inscription</h3>
-		<form method="post" action="">
+		<form method="post" action="postinscription.php">
 			Adresse mail : <input type="text" name="adresse"><br><br>
 			Nom : <input type="text" name="nom"><br><br>
 			Prenom : <input type="text" name="Prenom"><br><br>
