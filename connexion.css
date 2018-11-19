@@ -1,0 +1,58 @@
+header
+{
+	background-color: RGB(53,143,127);
+	color: white;
+	height:60px; 
+	width:100%;
+	min-width: 800px;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	vertical-align: middle;
+}
+
+#connecte
+{
+	float: right;
+	padding-top: 20px;
+	
+}
+
+#logo
+{
+	float: left;
+	padding-left: 30px;
+	height:60px; 
+	width:60px;
+}
+
+footer
+{
+	background-color: RGB(53,143,127);
+	height:30px; 
+	width:100%;
+	text-align: center;
+	color: white; 
+}
+
+main
+{
+	float: left;
+	width:50%;
+	height: 300px
+}
+
+.bouton
+{
+	background-color: RGB(53,143,127);
+}
+
+#connexion
+{
+	color :white;
+}
+
+
